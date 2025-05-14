@@ -1,0 +1,7 @@
+#1+x+x**2 +x**3+.......x**n
+x=int(input('Enter the value of x : '))
+n=int(input('Enter the number of terms : '))
+s=0
+for i in range(n):
+    s+=x**i
+print('sum of the series is ',s)

@@ -1,0 +1,6 @@
+Perfect number
+eg. 6
+    factors of 6 are 1,2,3,6
+then 6 is perfect is sum of factors other than itself is 6
+    1+2+3=6
+so 6 is perfect

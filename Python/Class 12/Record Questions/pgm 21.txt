@@ -1,0 +1,5 @@
+A)select distinct DeptID from Employee;
+B)select EmpNo, EmpName,Salary from Employee where 35000<Salary<40000;
+C)select EmpName, Salary from Employee where Zone not in ('West','Centre');
+D)select EmpName from Employee where EmpName like 'H%';
+E)

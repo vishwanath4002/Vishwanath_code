@@ -1,0 +1,6 @@
+print('Quadratic equation.\nax**2 + bx + c = 0')
+a,b,c=map(int,input('Enter the values of a,b and c : ').split())
+print('Equation: %sx**2 + %sx + %s'%(a,b,c))
+r1=(-b+(b**2-4*a*c)**0.5)/(2*a)
+r2=(-b-(b**2-4*a*c)**0.5)/(2*a)
+print('The roots are %s and %s.'%(r1,r2))
